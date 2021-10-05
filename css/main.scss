@@ -1,0 +1,40 @@
+@import "header";
+@import "Search";
+@import "grid";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: dodgerblue;
+  color: white;
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(25,44,102), rgb(57,132,202));
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+}
+
+.screen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+h2 {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+h4 {
+  font-size: 25px;
+  color: lightgrey;
+
+}
+
